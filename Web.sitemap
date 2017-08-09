@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Home"  description="Homepage">
+        <siteMapNode url="~/Default.aspx" title="Home"  description="Homepage" />
+        <siteMapNode url="~/Riding/Basics.aspx" title="How to Ride"  description="Riding Instructions" />
+        <siteMapNode url="~/Forms/Form.aspx" title="Application Forms" description="Employment, disability, and Paratransit forms" />
+        <siteMapNode url="~/About/Mission.aspx" title="About MTA" description="About MTA" />
+        <siteMapNode url="~/Contact.aspx" title="Contact Us" description="Contact information" />
+        <siteMapNode url="~/Resources.aspx" title="Resources" description="Resources" />
+    </siteMapNode>
+</siteMap>

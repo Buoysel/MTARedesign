@@ -1,0 +1,227 @@
+﻿/* Change when the main nav bar collapses */
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+/* End main nav*/
+
+/* Secondary nav and content at different sizes*/
+@media screen and (max-width: 992px) {
+    #secondaryNav {
+        overflow: hidden;
+    }
+
+    #secondaryNav ul {
+    padding-top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #contentAndSecNav {
+        display: flex;
+        min-height: 500px;
+    }
+
+    #tertiaryNav {
+    position: relative;
+    float: right;
+    border: dashed 1px;
+
+    padding-right: 40px;
+    padding-top: 10px;
+    
+    text-align: center;
+    
+    background-color: #fff
+    }
+}
+/* End secondary nav and content */
+
+.jumbotron {
+    background-color: #33cc33;
+}
+
+.jumbotron header, .jumbotron footer, .jumbotron a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Main Navigation */
+.navbar-default {
+    background-color: #005ce6;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+ul.nav a {
+    color: white !important;
+}
+
+ul.nav a:hover {
+    background-color: #003380 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #003380;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;
+}
+
+/* END Main Navigation*/
+
+/* Content */
+
+#content {
+    background-color: #f7f7f7;
+    border-bottom: solid 1px;
+    border-bottom-color: #999999;
+}
+
+#content h2 {
+    border-bottom: solid 1px;
+    border-bottom-color: #999999;
+    padding-bottom: 12px;
+}
+
+#secondaryNav {
+    background-color: #33adff;
+}
+
+#secondaryNav ul, #tertiaryNav ul{
+    list-style-type: none;
+}
+
+#secondaryNav li {
+    position: relative;
+    left: -55px;
+    padding: 10px 700px 10px 30px;
+}
+
+#secondaryNav li:hover {
+    background-color: #007acc;
+}
+
+#secondaryNav li a {
+    color: white;
+    font-size: 20px;
+}
+
+#secondaryNav li a:hover {
+    text-decoration: none;  
+}
+
+
+#tertiaryNav li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.note {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* End Content */
+
+/* Price table */
+
+.priceTable {
+    border: solid 1px;
+    margin-bottom: 10px;
+}
+
+.priceTable td, .priceTable th {
+    width: 1000px;
+    height: 50px;
+    border: solid 1px;
+    text-align: center;
+    padding: 5px;
+}
+
+.priceTable th {
+    font-size: 16px;
+}
+
+/* End Price Table */
+
+/* Schedule Table */
+.scheduleTable {
+    border: solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.scheduleTable td,.scheduleTable th {
+    width: 500px;
+    border: solid 1px;
+    text-align: center;
+    padding: 5px;
+
+}
+/* End Schedule Table*/
+
+/* footer */
+.footerArea {
+    padding-top: 30px;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+/* One-off CSS (slideshows, etc.) */
+.photoDiv #slideshow {
+    list-style-type: none;
+}
+
+.photoDiv {
+    text-align: center;
+}
+
+#slideshow {
+    margin: auto;
+}
